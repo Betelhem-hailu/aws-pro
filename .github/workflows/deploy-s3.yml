@@ -21,4 +21,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Sync files to S3
-      run: aws s3 sync terraform-s3-static-site/website/ s3://terraform-20250720203417825900000002 --delete
+      run: aws s3 sync terraform-s3-static-web/website/ s3://terraform-20250720203417825900000002 --delete
