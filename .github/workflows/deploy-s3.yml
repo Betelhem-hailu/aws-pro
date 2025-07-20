@@ -2,8 +2,10 @@ name: Deploy S3 Website
 
 on:
   push:
-    paths:
-      - 'terraform-s3-static-web/**'
+   branches:
+     - main
+  paths:
+    - 'terraform-s3-static-web/**'
 
 jobs:
   deploy:
